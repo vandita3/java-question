@@ -1,0 +1,32 @@
+public class programshomework {
+    static class rectangle {
+        int length;
+        int breath;
+
+        rectangle(int length, int breath) {
+            this.length = length;
+            this.breath = breath;
+        }
+
+        public int area() {
+             int res= length * breath;
+             System.out.println(res);
+             return 0;
+        }
+
+        public int perimeter() {
+            int res2;
+           res2 =  2 * (length + breath);
+           System.out.println(res2);
+           return 0;
+        }
+    }
+
+        public static void main(String[] args) {
+            rectangle r1 = new rectangle(4, 4);
+            r1.area();
+
+
+        }
+
+    }
