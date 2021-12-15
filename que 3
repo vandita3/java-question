@@ -1,0 +1,24 @@
+public class programshomework
+{
+    class interest {
+        public static void gender(String gender, int age) {
+            if ((gender == "female") && (age > 1 && age <= 58)) {
+                System.out.println("the percentage of interest is 8.2%");
+                if (age >= 59 && age <= 100) {
+                    System.out.println("the percentage of interest is 9.2%");
+                }
+            } else {
+                if ((gender == "male") && (age >= 1 && age <= 58)) {
+                    System.out.println("the percentage of interest is 8.4%");
+                    if (age >= 59 && age <= 100) {
+                        System.out.println(" the percentage of interest is 10.5 ");
+                    }
+                }
+            }
+        }
+    }
+        public static void main(String[] args)
+        {
+            gender("male",56);
+        }
+}
