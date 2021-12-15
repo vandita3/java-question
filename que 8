@@ -1,0 +1,27 @@
+public class programshomework
+{
+    static class employee
+    {
+        String name;
+        int year;
+        String address;
+        employee(String name, int year,String address)
+        {
+            this.name = name;
+            this.year = year;
+            this.address = address;
+        }
+    }
+    public static void main(String[] args)
+    {
+        employee e1 = new employee("mitesh",2012,"mathura");
+        employee e2 = new employee("aman",2021,"chandigarh");
+        employee e3 = new employee("sunil",2000,"agra");
+
+        System.out.println("name       year of joining       address");
+        System.out.println(e1.name +"       "+e1.year+"       "+e1.address);
+        System.out.println(e2.name +"       "+e2.year+"       "+e3.address);
+        System.out.println(e3.name +"       "+e3.year+"       "+e3.address);
+
+    }
+}
