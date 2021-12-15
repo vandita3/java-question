@@ -1,0 +1,22 @@
+public class programshomework {
+     static class Shape {
+        public static void draw()
+        {
+            System.out.println("drawing shape");
+        }
+
+        public  static void erase()
+        {
+            System.out.println("Erasing shape");
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        Shape S = new Shape();
+        S.draw();
+        S.erase();
+
+    }
+
+}
