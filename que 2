@@ -1,0 +1,17 @@
+public class programshomework
+{
+    class patient
+    {
+        public static void BMI(String  a,double  b,double c)
+        {
+            System.out.println("name is " + a);
+            double result = b* 0.45359237 / (c * 0.0254 * c * 0.0254);
+            System.out.println("the BMI of a person is " + result);
+
+        }
+    }
+    public static void main (String[] args)
+    {
+        patient.BMI("mitesh",452,72);
+    }
+}
