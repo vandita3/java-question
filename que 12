@@ -1,0 +1,42 @@
+public class programshomework
+{
+    static class book
+    {
+        String name;
+        String  author;
+        double price;
+        int stock;
+
+        book(String name, String author,int price,int stock)
+        {
+            this.name = name;
+            this.author = author;
+            this.price = price;
+            this.stock = stock;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+        public void setPrice(double price) {
+            this.price = price;
+        }
+        public void setStock(int stock) {
+            this.stock = stock;
+        }
+        public void setAuthor(String author) {
+            this.author = author;
+        }
+
+
+    }
+    public static void main(String[] args)
+    {
+        book b1 = new book("mitesh","moolchand",9999,100);
+        System.out.println("details of book are");
+        System.out.println("name of book is "+ b1.name);
+        System.out.println("author of book is "+ b1.author);
+        System.out.println("price of the book is "+ b1.price);
+        System.out.println("stock of book is "+ b1.stock);
+    }
+}
