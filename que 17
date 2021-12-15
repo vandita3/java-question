@@ -1,0 +1,33 @@
+public class programshomework
+{
+    static class car {
+        public static String property;
+        public static String manufacturer;
+        public static double price;
+
+        public car(String property, String manufacturer, double price) {
+            this.property = property;
+            this.manufacturer = manufacturer;
+            this.price = price;
+        }
+
+        public static int display() {
+            System.out.println(" details of car is as follows");
+            System.out.println("properties : " + property);
+            System.out.println("manufacturer : " + manufacturer);
+            System.out.println("price : " + price);
+            return 0;
+        }
+    }
+
+        public static void main(String[] args)
+        {
+            car c1 = new car("black colour","maruti",3400);
+            car c2 = new car("pink colour","Honda",8900);
+            c1.display();
+            System.out.println("__________________\t");
+            c2.display();
+        }
+//
+}
+
