@@ -1,0 +1,26 @@
+import java.lang.Math;
+public class programshomework
+{
+    static class calculator
+    {
+        public static int powerint(int num1, int num2)
+        {
+            int pow1 = (int) Math.pow(num1, num2);
+            System.out.println(pow1);
+            return 0;
+        }
+        public static double powerdouble(double num1, double num2)
+        {
+            double pow2 = Math.pow(num1,num2);
+            System.out.println(pow2);
+            return 0;
+        }
+    }
+    public static void main(String[] args)
+    {
+        calculator ct = new calculator();
+        ct.powerint(3,3);
+        ct.powerdouble(3,3);
+
+    }
+}
