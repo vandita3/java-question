@@ -1,0 +1,44 @@
+public class programshomework {
+    static class employee
+    {
+
+        static int salary =0;
+        static int hours = 0;
+
+        public static int getinfo(int salary, int hours) {
+            System.out.println("Salary is = "+salary + " " +"hours is = "+ hours);
+            return 0;
+        }
+
+        public static int addsal() {
+            if (salary < 500)
+            {
+                salary += 10;
+            }
+            return salary;
+        }
+
+        public static int addwork()
+        {
+            if (hours > 6)
+            {
+                salary += 5;
+
+            }
+            return salary;
+        }
+
+
+    }
+    public static void main(String[] args)
+        {
+            int salary;
+            employee e1 = new employee();
+            e1.getinfo(400,7);
+            salary = e1.addwork();
+            salary = e1.addsal();
+            System.out.println(salary);
+
+
+        }
+    }
